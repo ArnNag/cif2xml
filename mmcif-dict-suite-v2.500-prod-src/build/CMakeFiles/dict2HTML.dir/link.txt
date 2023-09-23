@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/dict2HTML.dir/modules/cpp-dict-to-html/src/dict2HTML.C.o -o bin/dict2HTML  lib/libdict2htmllib.a lib/libmmciflib-all.a 

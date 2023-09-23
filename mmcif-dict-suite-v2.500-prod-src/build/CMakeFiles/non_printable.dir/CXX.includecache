@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/h/anagle/cif2xml/mmcif-dict-suite-v2.500-prod-src/modules/cpp-misc-dict-util/src/non_printable.C
+iomanip
+-
+istream
+-
+ostream
+-
+iostream
+-
+fstream
+-
+cstring
+-
+string
+-
+Exceptions.h
+/h/anagle/cif2xml/mmcif-dict-suite-v2.500-prod-src/modules/cpp-misc-dict-util/src/Exceptions.h
+GenString.h
+/h/anagle/cif2xml/mmcif-dict-suite-v2.500-prod-src/modules/cpp-misc-dict-util/src/GenString.h
+
+include/Exceptions.h
+stdexcept
+-
+string
+-
+
+include/GenString.h
+string
+-
+functional
+-
+

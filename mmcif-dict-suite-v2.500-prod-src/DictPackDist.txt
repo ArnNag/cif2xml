@@ -1,0 +1,1 @@
+This file is present in Dict Pack distribution and limits building of only core dictionaries

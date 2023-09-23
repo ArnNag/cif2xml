@@ -1,0 +1,11 @@
+
+DictObjFileCreator Version 8.0
+
+Dictionary SDB filename: ../sdb/mmcif_af.sdb
+Object filename:     mmcif_af.odb
+
+Number of dictionary datablocks: 1
+Building dictionary object: mmcif_af.dic
+Writing dictionary object: mmcif_af.dic
+Last index = 2297
+Return code = 0

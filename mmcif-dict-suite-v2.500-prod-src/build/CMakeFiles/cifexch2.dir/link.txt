@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/cifexch2.dir/modules/cpp-misc-dict-util/src/cifexch2.C.o CMakeFiles/cifexch2.dir/modules/cpp-misc-dict-util/src/ConditionalContext.C.o -o bin/cifexch2  lib/libmmciflib-all.a 

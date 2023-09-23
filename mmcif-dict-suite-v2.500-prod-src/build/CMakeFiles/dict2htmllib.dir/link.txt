@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libdict2htmllib.a CMakeFiles/dict2htmllib.dir/modules/cpp-dict-to-html/src/demoGetArgs.C.o CMakeFiles/dict2htmllib.dir/modules/cpp-dict-to-html/src/htmlUtil.C.o
+/usr/bin/ranlib lib/libdict2htmllib.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libpdbml.a CMakeFiles/pdbml.dir/modules/cpp-pdbml/src/PdbMlSchema.C.o CMakeFiles/pdbml.dir/modules/cpp-pdbml/src/PdbMlWriter.C.o CMakeFiles/pdbml.dir/modules/cpp-pdbml/src/XmlWriter.C.o CMakeFiles/pdbml.dir/modules/cpp-pdbml/src/XsdWriter.C.o
+/usr/bin/ranlib lib/libpdbml.a

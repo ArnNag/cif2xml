@@ -1,0 +1,71 @@
+Start of dictionary to .sdb conversion.
+Using DDL file: ../dicts/dict-mmcif_ddl/mmcif_ddl.dic
+Using dictionary file: ../dicts/dict-mmcif_af/mmcif_af.dic
+
+Parsing logs are stored in files with "-parser.log" extension. 
+Diagnostic logs are stored in files with "-diag.log" extension. 
+
+Checking the DDL file against itself ...
+Info: Creating a new group "1" for child category "atom_site" for child item "_atom_site.label_entity_id" and parent item "_entity.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "atom_site" for child item "_atom_site.label_seq_id" and parent item "_entity_poly_seq.num", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "3" for child category "atom_site" for child item "_atom_site.label_asym_id" and parent item "_struct_asym.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "4" for child category "atom_site" for child item "_atom_site.pdbx_PDB_model_num" and parent item "_ma_model_list.model_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "entity_poly" for child item "_entity_poly.entity_id" and parent item "_entity.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "entity_poly_seq" for child item "_entity_poly_seq.entity_id" and parent item "_entity_poly.entity_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_model_list" for child item "_ma_model_list.data_id" and parent item "_ma_data.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_qa_metric" for child item "_ma_qa_metric.software_group_id" and parent item "_ma_software_group.group_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_qa_metric_global" for child item "_ma_qa_metric_global.metric_id" and parent item "_ma_qa_metric.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "ma_qa_metric_global" for child item "_ma_qa_metric_global.model_id" and parent item "_ma_model_list.model_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_qa_metric_local" for child item "_ma_qa_metric_local.label_asym_id" and parent item "_atom_site.label_asym_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "ma_qa_metric_local" for child item "_ma_qa_metric_local.label_comp_id" and parent item "_atom_site.label_comp_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "3" for child category "ma_qa_metric_local" for child item "_ma_qa_metric_local.label_seq_id" and parent item "_atom_site.label_seq_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "4" for child category "ma_qa_metric_local" for child item "_ma_qa_metric_local.metric_id" and parent item "_ma_qa_metric.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "5" for child category "ma_qa_metric_local" for child item "_ma_qa_metric_local.model_id" and parent item "_ma_model_list.model_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_software_group" for child item "_ma_software_group.software_id" and parent item "_software.pdbx_ordinal", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_target_entity" for child item "_ma_target_entity.data_id" and parent item "_ma_data.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "ma_target_entity" for child item "_ma_target_entity.entity_id" and parent item "_entity.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_target_entity_instance" for child item "_ma_target_entity_instance.entity_id" and parent item "_ma_target_entity.entity_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "ma_target_ref_db_details" for child item "_ma_target_ref_db_details.target_entity_id" and parent item "_ma_target_entity.entity_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "pdbx_audit_revision_details" for child item "_pdbx_audit_revision_details.data_content_type" and parent item "_pdbx_audit_revision_history.data_content_type", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "pdbx_audit_revision_details" for child item "_pdbx_audit_revision_details.revision_ordinal" and parent item "_pdbx_audit_revision_history.ordinal", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "pdbx_database_status" for child item "_pdbx_database_status.entry_id" and parent item "_entry.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "pdbx_poly_seq_scheme" for child item "_pdbx_poly_seq_scheme.asym_id" and parent item "_struct_asym.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "pdbx_poly_seq_scheme" for child item "_pdbx_poly_seq_scheme.entity_id" and parent item "_entity_poly_seq.entity_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "3" for child category "pdbx_poly_seq_scheme" for child item "_pdbx_poly_seq_scheme.mon_id" and parent item "_entity_poly_seq.mon_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "4" for child category "pdbx_poly_seq_scheme" for child item "_pdbx_poly_seq_scheme.seq_id" and parent item "_entity_poly_seq.num", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "struct_asym" for child item "_struct_asym.entity_id" and parent item "_entity.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "struct_asym" for child item "_struct_asym.entity_id" and parent item "_ma_target_entity_instance.entity_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "3" for child category "struct_asym" for child item "_struct_asym.id" and parent item "_ma_target_entity_instance.asym_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "struct_conf" for child item "_struct_conf.beg_label_seq_id" and parent item "_atom_site.label_seq_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "struct_conf" for child item "_struct_conf.end_label_seq_id" and parent item "_atom_site.label_seq_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "3" for child category "struct_conf" for child item "_struct_conf.beg_label_asym_id" and parent item "_atom_site.label_asym_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "4" for child category "struct_conf" for child item "_struct_conf.end_label_asym_id" and parent item "_atom_site.label_asym_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "5" for child category "struct_conf" for child item "_struct_conf.beg_auth_asym_id" and parent item "_atom_site.auth_asym_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "6" for child category "struct_conf" for child item "_struct_conf.beg_auth_comp_id" and parent item "_atom_site.auth_comp_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "7" for child category "struct_conf" for child item "_struct_conf.beg_auth_seq_id" and parent item "_atom_site.auth_seq_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "8" for child category "struct_conf" for child item "_struct_conf.conf_type_id" and parent item "_struct_conf_type.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "9" for child category "struct_conf" for child item "_struct_conf.end_auth_asym_id" and parent item "_atom_site.auth_asym_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "10" for child category "struct_conf" for child item "_struct_conf.end_auth_comp_id" and parent item "_atom_site.auth_comp_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "11" for child category "struct_conf" for child item "_struct_conf.end_auth_seq_id" and parent item "_atom_site.auth_seq_id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "12" for child category "struct_conf" for child item "_struct_conf.pdbx_beg_PDB_ins_code" and parent item "_atom_site.pdbx_PDB_ins_code", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "13" for child category "struct_conf" for child item "_struct_conf.pdbx_end_PDB_ins_code" and parent item "_atom_site.pdbx_PDB_ins_code", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "struct_ref" for child item "_struct_ref.entity_id" and parent item "_entity.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "1" for child category "struct_ref_seq" for child item "_struct_ref_seq.seq_align_beg" and parent item "_entity_poly_seq.num", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "2" for child category "struct_ref_seq" for child item "_struct_ref_seq.seq_align_end" and parent item "_entity_poly_seq.num", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "3" for child category "struct_ref_seq" for child item "_struct_ref_seq.ref_id" and parent item "_struct_ref.id", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "4" for child category "struct_ref_seq" for child item "_struct_ref_seq.pdbx_auth_seq_align_beg" and parent item "_pdbx_poly_seq_scheme.pdb_seq_num", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "5" for child category "struct_ref_seq" for child item "_struct_ref_seq.pdbx_auth_seq_align_end" and parent item "_pdbx_poly_seq_scheme.pdb_seq_num", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "6" for child category "struct_ref_seq" for child item "_struct_ref_seq.pdbx_seq_align_beg_ins_code" and parent item "_pdbx_poly_seq_scheme.pdb_ins_code", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "7" for child category "struct_ref_seq" for child item "_struct_ref_seq.pdbx_seq_align_end_ins_code" and parent item "_pdbx_poly_seq_scheme.pdb_ins_code", from "item_linked" table, as these are not defined in group tables.
+Info: Creating a new group "8" for child category "struct_ref_seq" for child item "_struct_ref_seq.pdbx_strand_id" and parent item "_pdbx_poly_seq_scheme.pdb_strand_id", from "item_linked" table, as these are not defined in group tables.
+Checking the dictionary file against the DDL ...
+
+End of dictionary to .sdb conversion.
+ 
+No DDL parsing errors.
+ 
+No DDL consistency errors.
+ 
+No dictionary parsing errors.
+ 
+No dictionary consistency errors.

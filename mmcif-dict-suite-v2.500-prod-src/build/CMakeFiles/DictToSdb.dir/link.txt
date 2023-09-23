@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/DictToSdb.dir/modules/cpp-misc-dict-util/src/DictToSdb.C.o -o bin/DictToSdb  lib/libmmciflib-all.a 

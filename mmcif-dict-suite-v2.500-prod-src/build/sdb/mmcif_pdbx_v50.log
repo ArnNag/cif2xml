@@ -1,0 +1,19 @@
+Start of dictionary to .sdb conversion.
+Using DDL file: ../dicts/dict-mmcif_ddl/mmcif_ddl.dic
+Using dictionary file: ../dicts/dict-mmcif_pdbx_v50/mmcif_pdbx_v50.dic
+
+Parsing logs are stored in files with "-parser.log" extension. 
+Diagnostic logs are stored in files with "-diag.log" extension. 
+
+Checking the DDL file against itself ...
+Checking the dictionary file against the DDL ...
+
+End of dictionary to .sdb conversion.
+ 
+No DDL parsing errors.
+ 
+No DDL consistency errors.
+ 
+No dictionary parsing errors.
+ 
+No dictionary consistency errors.

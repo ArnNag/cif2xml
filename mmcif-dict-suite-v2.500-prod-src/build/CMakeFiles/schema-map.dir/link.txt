@@ -1,0 +1,2 @@
+/usr/bin/ar qc lib/libschema-map.a CMakeFiles/schema-map.dir/modules/cpp-schema-map/src/SchemaDataInfo.C.o CMakeFiles/schema-map.dir/modules/cpp-schema-map/src/SchemaMap.C.o CMakeFiles/schema-map.dir/modules/cpp-schema-map/src/SchemaMapCreate.C.o CMakeFiles/schema-map.dir/modules/cpp-schema-map/src/SchemaParentChild.C.o
+/usr/bin/ranlib lib/libschema-map.a

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/CifCheck.dir/modules/cpp-misc-dict-util/src/CifCheck.C.o -o bin/CifCheck  lib/libmmciflib-all.a 

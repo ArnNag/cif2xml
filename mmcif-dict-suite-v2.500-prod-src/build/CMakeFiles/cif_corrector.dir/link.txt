@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/cif_corrector.dir/modules/cpp-misc-dict-util/src/cif_corrector.C.o -o bin/cif_corrector  lib/libmmciflib-all.a 

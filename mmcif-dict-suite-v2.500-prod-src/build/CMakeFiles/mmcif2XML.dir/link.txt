@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/mmcif2XML.dir/modules/cpp-misc-xml-util/src/mmcif2XML.C.o -o bin/mmcif2XML  lib/libmmcif-xml-util.a lib/libpdbml.a lib/libmmciflib-all.a 

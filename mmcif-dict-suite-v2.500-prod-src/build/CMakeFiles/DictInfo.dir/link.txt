@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/DictInfo.dir/modules/cpp-misc-dict-util/src/DictInfo.C.o -o bin/DictInfo  lib/libmmciflib-all.a 

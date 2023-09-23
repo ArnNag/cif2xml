@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/DictObjFileSelectiveReader.dir/modules/cpp-dict-obj-file/src/DictObjFileSelectiveReader.C.o -o bin/DictObjFileSelectiveReader  lib/libmmciflib-all.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -rdynamic CMakeFiles/Dict2XMLSchema.dir/modules/cpp-misc-xml-util/src/Dict2XMLSchema.C.o -o bin/Dict2XMLSchema  lib/libmmcif-xml-util.a lib/libpdbml.a lib/libmmciflib-all.a 
